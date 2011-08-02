@@ -1,1 +1,1 @@
-rvm 1.9.2@joncanady
+rvm use --create 1.9.2@joncanady
