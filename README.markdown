@@ -1,3 +1,11 @@
+# joncanady.com
+
+This is the version of joncanady.com launched on August 1.
+
+It's powered by Octopress (original README below). Managing Jekyll on its own was easy but I like some of the things Octopress provides out of the box, and it turns out in the end I don't want to hack on my blog engine every time I want a new feature.
+
+---
+
 ## What is Octopress?
 
 Octopress is [Jekyll](https://github.com/mojombo/jekyll) blogging at its finest.
