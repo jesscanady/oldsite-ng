@@ -3,7 +3,7 @@
 # ----------------------- #
 
 url: http://joncanady.com
-title: Jon Canady
+title: Jon Canady Writes Here
 subtitle: 
 author: Jon Canady
 simple_search: http://google.com/search
@@ -12,7 +12,7 @@ simple_search: http://google.com/search
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: jon@joncanady.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
