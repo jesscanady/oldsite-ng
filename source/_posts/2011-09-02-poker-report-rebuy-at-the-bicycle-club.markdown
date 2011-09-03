@@ -23,7 +23,7 @@ UTG pushes for has last few thousand, and MP1 pushes for more than me. I can't f
 
 Flop includes the Queen of Hearts. Now I'm calculating where I'll be in relation to the big stacks.
 
-Runner-runner hearts ends up completing MP1s flush. One of his tens was a heart. And I'm out.
+Runner-runner hearts ends up completing MP1s flush. One of his tens was a heart. And I'm out. It's well scotch for me tonight. 
 
 ## Summary
 
