@@ -1,2 +1,64 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+body > header {
+  text-align: center;
+}
+
+body > header p {
+  -webkit-background-size: auto auto;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: transparent;
+  background-image: none;
+  background-origin: padding-box;
+  background-size: auto auto;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  color: #EEE;
+  display: block;
+  font-style: normal;
+  font-weight: normal;
+  height: 30px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  margin-bottom: 6px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 20px;
+  outline-color: #EEE;
+  outline-style: none;
+  outline-width: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  text-align: center;
+  text-shadow: black 1px 1px 0px;
+  text-transform: uppercase;
+  vertical-align: baseline;
+  font-size: .8em
+}
+
+
+hgroup p:before, hgroup p:after {
+  content: ' ';
+  width: 4.5em;
+  height: 1px;
+  display: inline-block;
+  border-bottom: 1px solid #888;
+  position: relative;
+  top: -0.35em;
+  margin: 0 .5em;
+}
+
+
+#page_title a, #page_title a:visited {
+  font-family: 'IM Fell French Canon SC', serif;
+  text-shadow: rgb(95, 79, 99) 0px 1px 0px, rgb(81, 68, 85) 0px 2px 0px, rgb(65, 54, 68) 0px 3px 0px, rgb(51, 43, 53) 0px 4px 0px, rgba(0, 0, 0, 0.199219) 0px 5px 1px, rgba(0, 0, 0, 0.296875) 0px 0px 10px, rgba(0, 0, 0, 0.398438) 0px 3px 5px, rgba(0, 0, 0, 0.496094) 0px 6px 5px, rgba(0, 0, 0, 0.597656) 0px 10px 10px; 
+}
+
+html {
+  @include gradient($page-bg, $page-bg2);
+}
