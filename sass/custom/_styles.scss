@@ -61,11 +61,11 @@ hgroup p:before, hgroup p:after {
 }
 
 html {
-  background-color: rgb(45, 13, 43);
-  background-image: -webkit-gradient(radial, 50% 100%,100,50% -50%,100, to(rgb(131, 0, 250)), from(rgb(45, 13, 43)));
-  background-image: -webkit-radial-gradient(50% 0%, rgb(131, 0, 250), rgb(45, 13, 43));
-  background-image: -moz-radial-gradient(50% 0%, rgb(131, 0, 250), rgb(45, 13, 43));
-  background-image: -o-radial-gradient(50% 0%, rgb(131, 0, 250), rgb(45, 13, 43));
-  background-image: -ms-radial-gradient(50% 0%, rgb(131, 0, 250), rgb(45, 13, 43));
-  background-image: radial-gradient(50% 0%, rgb(131, 0, 250), rgb(45, 13, 43));
+  background-color: #53009f;
+  background-image: -webkit-gradient(radial, 50% 100%,100,50% -50%,100, to(rgb(83, 0, 159)), from(rgb(45, 13, 43)));
+  background-image: -webkit-radial-gradient(50% 0%, rgb(83, 0, 159), rgb(45, 13, 43));
+  background-image: -moz-radial-gradient(50% 0%, rgb(83, 0, 159), rgb(45, 13, 43));
+  background-image: -o-radial-gradient(50% 0%, rgb(83, 0, 159), rgb(45, 13, 43));
+  background-image: -ms-radial-gradient(50% 0%, rgb(83, 0, 159), rgb(45, 13, 43));
+  background-image: radial-gradient(50% 0%, rgb(83, 0, 159), rgb(45, 13, 43));
 }
