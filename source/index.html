@@ -1,38 +1,127 @@
----
-layout: default
-meta: false
-footer: false
----
-<div class="blog-index">
-{% assign index = true %}
-{% for post in paginator.posts %}
-{% assign content = post.content %}
-  <article>
-    {% include article.html %}
-  </article>
-{% endfor %}
-<nav role="pagination">
-  <div>
-    {% if paginator.next_page %}
-      <a class="prev" href="/page{{paginator.next_page}}/">&larr; Older</a>
-    {% endif %}
-    <a href="/blog/archives">Blog Archives</a>
-    {% if paginator.previous_page and paginator.previous_page > 1 %}
-      <a class="next" href="/page{{paginator.previous_page}}/">Newer &rarr;</a>
-    {% elsif paginator.previous_page %}
-      <a class="next" href="/">Newer &rarr;</a>
-    {% endif %}
-  </div>
-</nav>
-{% if site.disqus_short_name %}
-<script type="text/javascript">
-    var disqus_shortname = '{{ site.disqus_short_name }}';
-    (function () {
-      var s = document.createElement('script'); s.async = true;
-      s.type = 'text/javascript';
-      s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
-      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-</script>
-{% endif %}
-</div>
+<!html>
+<html>
+  <head>
+    <title>Jon Canady : Columbus OH Software Developer</title>
+    <link rel="stylesheet" href="/stylesheets/league_gothic.css" type="text/css">
+    <style type="text/css">
+
+      section {
+        display: block
+      }
+
+      body {
+        background-color: #465070;
+        background-image: -webkit-gradient(radial, 50% 100%,100,50% -50%,100, from(rgb(36, 42, 62)),to(rgb(70, 80, 112)));
+        background-image: -webkit-radial-gradient(50% 0%, rgb(70, 80, 112), rgb(36, 42, 62));
+        background-image: -ms-radial-gradient(50% 0%, rgb(70, 80, 112), rgb(36, 42, 62));
+        background-image: radial-gradient(50% 0%, rgb(70, 80, 112), rgb(36, 42, 62));
+        background-image: -moz-radial-gradient(50% 0%, rgb(70, 80, 112), rgb(36, 42, 62));
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: 'Helvetica Neue', 'Arial', sans-serif;
+        overflow: hidden;
+      }
+
+      #main {
+        background: transparent;
+        width: 30em;
+        margin: 1em auto;
+        /* background: rgba(255,255,255,.1); */
+        padding: 3em 5em;
+        /* border: 1px solid rgba(0, 0, 0, .1); */
+      }
+
+      #name, #desc {
+        color: #ccc;
+        text-align: center;
+        font-family: 'LeagueGothicRegular', sans-serif;
+        margin-top: -.25em;
+        margin-bottom: -.25em;
+      }
+
+      a:active, a:visited {
+        color: #ccc;
+      }
+
+      #name {
+        font-size: 9em;
+      }
+
+      #desc {
+        font-size: 3em;
+      }
+
+      #jonbar {
+        margin-bottom: 1em;
+        width: 100%;
+        margin: 0;
+        background: #000;
+        color: #ccc
+        font-size: 1.5em;
+        padding: .5em .25em;
+      }
+
+      #jonbar a {
+        color: #ccc;
+      }
+
+      #jonbar a:visited {
+        color: #ccc;
+      }
+
+      #jonbar a:hover {
+        color: blue;
+      }
+
+      #jonbar a:active {
+        color: purple;
+      }
+
+      #jonbar ul {
+        margin: 0;
+        list-style-type: none;
+      }
+
+      #jonbar ul li {
+        display: inline;
+      }
+
+      img#jon {
+        margin-top: 1em;
+        margin-bottom: 1em;
+      }
+
+      #about {
+        color: #ccc;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="jonbar">
+      <ul>
+        <li><a href="http://github.com/joncanady">Code</a>&nbsp;&middot;</li>
+        <li><a href="http://github.com/joncanady">Tech Writing</a>&nbsp;&middot;</li>
+        <li><a href="/categories/poker/">Poker</a>&nbsp;&middot;</li>
+        <li><a href="http://github.com/joncanady">Status</a></li>
+      </ul>
+    </div>
+
+    <div id="main">
+      <div id="name">JON CANADY</div> 
+      <img id="jon" src="/images/jon.png">
+      <div id="desc">Software Developer in Columbus, OH</div>
+      
+      <section id="about">
+      <p>I'm Jon Canady. I <a href="http://github.com/joncanady">write software</a>. I talk about writing software. I <a href="/categories/poker/">like to play poker</a> when I can.</p>
+        <p>I 
+      </section>
+    </div>
+
+
+  </body>
+</html>
+    
+
+
