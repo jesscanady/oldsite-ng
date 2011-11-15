@@ -81,3 +81,12 @@ html {
   height: 90%;
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
 }
+
+article header p.meta  {
+  // margin-bottom: 1em;
+  position: relative;
+}
+
+article header h1.entry-title {
+  margin-top: 1em;
+}

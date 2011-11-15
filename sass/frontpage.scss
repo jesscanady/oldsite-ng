@@ -33,15 +33,17 @@ body {
 }
 
 #name, #desc {
-  color: #ccc;
+  color: #eee;
   text-align: center;
   font-family: 'LeagueGothicRegular', sans-serif;
   margin-top: -.25em;
   margin-bottom: -.25em;
+  color: #eee;
+  text-shadow: rgb(95, 79, 99) 0px 1px 0px, rgb(81, 68, 85) 0px 2px 0px, rgb(65, 54, 68) 0px 3px 0px, rgb(51, 43, 53) 0px 4px 0px, rgba(0, 0, 0, 0.199219) 0px 5px 1px, rgba(0, 0, 0, 0.296875) 0px 0px 10px, rgba(0, 0, 0, 0.398438) 0px 3px 5px, rgba(0, 0, 0, 0.496094) 0px 6px 5px, rgba(0, 0, 0, 0.597656) 0px 10px 10px; 
 }
 
 a:active, a:visited {
-  color: #ccc;
+  color: #eee;
 }
 
 #name {
@@ -58,7 +60,11 @@ img#jon {
 }
 
 #about {
-  color: #ccc;
+  font-size: 1.2em;
+  color: #eee;
+  text-align: justify;
 }
 
-
+#about a, #about a:visited {
+  color: #ccc;
+}
