@@ -5,6 +5,13 @@ body > header {
   background: transparent;
 }
 
+h1#page_title {
+  font-size: 3.8em;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
 body > header p {
   -webkit-background-size: auto auto;
   background-attachment: scroll;
@@ -27,7 +34,7 @@ body > header p {
   margin-bottom: 6px;
   margin-left: 0px;
   margin-right: 0px;
-  margin-top: 20px;
+  // margin-top: 20px;
   outline-color: #EEE;
   outline-style: none;
   outline-width: 0px;
@@ -56,16 +63,21 @@ hgroup p:before, hgroup p:after {
 
 
 #page_title a, #page_title a:visited {
-  font-family: 'IM Fell French Canon SC', serif;
+  font-family: 'LeagueGothicRegular', serif;
   text-shadow: rgb(95, 79, 99) 0px 1px 0px, rgb(81, 68, 85) 0px 2px 0px, rgb(65, 54, 68) 0px 3px 0px, rgb(51, 43, 53) 0px 4px 0px, rgba(0, 0, 0, 0.199219) 0px 5px 1px, rgba(0, 0, 0, 0.296875) 0px 0px 10px, rgba(0, 0, 0, 0.398438) 0px 3px 5px, rgba(0, 0, 0, 0.496094) 0px 6px 5px, rgba(0, 0, 0, 0.597656) 0px 10px 10px; 
 }
 
 html {
-  background-color: #53009f;
-  background-image: -webkit-gradient(radial, 50% 100%,100,50% -50%,100, to(rgb(83, 0, 159)), from(rgb(45, 13, 43)));
-  background-image: -webkit-radial-gradient(50% 0%, rgb(83, 0, 159), rgb(45, 13, 43));
-  background-image: -moz-radial-gradient(50% 0%, rgb(83, 0, 159), rgb(45, 13, 43));
-  background-image: -o-radial-gradient(50% 0%, rgb(83, 0, 159), rgb(45, 13, 43));
-  background-image: -ms-radial-gradient(50% 0%, rgb(83, 0, 159), rgb(45, 13, 43));
-  background-image: radial-gradient(50% 0%, rgb(83, 0, 159), rgb(45, 13, 43));
+  background-color: #465070;
+  background-image: -webkit-gradient(radial, 50% 100%,100,50% -50%,100, from(rgb(36, 42, 62)),to(rgb(70, 80, 112)));
+  background-image: -webkit-radial-gradient(50% 0%, rgb(70, 80, 112), rgb(36, 42, 62));
+  background-image: -ms-radial-gradient(50% 0%, rgb(70, 80, 112), rgb(36, 42, 62));
+  background-image: radial-gradient(50% 0%, rgb(70, 80, 112), rgb(36, 42, 62));
+  background-image: -moz-radial-gradient(50% 0%, rgb(70, 80, 112), rgb(36, 42, 62));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  height: 90%;
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
 }

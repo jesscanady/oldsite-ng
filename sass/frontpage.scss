@@ -1,0 +1,64 @@
+@import "custom/jonbar";
+
+section {
+  display: block
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #465070;
+  background-image: -webkit-gradient(radial, 50% 100%,100,50% -50%,100, from(rgb(36, 42, 62)),to(rgb(70, 80, 112)));
+  background-image: -webkit-radial-gradient(50% 0%, rgb(70, 80, 112), rgb(36, 42, 62));
+  background-image: -ms-radial-gradient(50% 0%, rgb(70, 80, 112), rgb(36, 42, 62));
+  background-image: radial-gradient(50% 0%, rgb(70, 80, 112), rgb(36, 42, 62));
+  background-image: -moz-radial-gradient(50% 0%, rgb(70, 80, 112), rgb(36, 42, 62));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  height: 90%;
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+#main {
+  background: transparent;
+  width: 30em;
+  margin: 1em auto;
+  /* background: rgba(255,255,255,.1); */
+  padding: 3em 5em;
+  /* border: 1px solid rgba(0, 0, 0, .1); */
+}
+
+#name, #desc {
+  color: #ccc;
+  text-align: center;
+  font-family: 'LeagueGothicRegular', sans-serif;
+  margin-top: -.25em;
+  margin-bottom: -.25em;
+}
+
+a:active, a:visited {
+  color: #ccc;
+}
+
+#name {
+  font-size: 9em;
+}
+
+#desc {
+  font-size: 3em;
+}
+
+img#jon {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#about {
+  color: #ccc;
+}
+
+
