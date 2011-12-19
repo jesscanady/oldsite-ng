@@ -18,7 +18,8 @@ email: jon@joncanady.com
 #    Jekyll & Plugins     #
 # ----------------------- #
 
-# If publishing to a subdirectory as in http://site.com/project set 'root: /project'
+# Technically the blog is at /blog/...
+# but if this changes all the Google permalinks break. 
 root: /
 port: 4000
 permalink: /:year/:month/:day/:title
