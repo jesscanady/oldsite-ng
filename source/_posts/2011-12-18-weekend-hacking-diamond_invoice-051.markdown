@@ -12,7 +12,7 @@ Distributor invoice files and spit out a list of the incoming items. It wasn't
 very sophisticated, and it was baked into the rest of the PHP file that
 generated that particular HTML page, but it mostly worked.
 
-Now, beacuse of my need for a quick weekend project, you can have this smae
+Now, beacuse of my need for a quick weekend project, you can have this same
 basic functionality in a convienent RubyGem! Presenting,
 [diamond_invoice][github_page].
 
