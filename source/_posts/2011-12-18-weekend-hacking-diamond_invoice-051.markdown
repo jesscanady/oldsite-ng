@@ -18,8 +18,8 @@ basic functionality in a convienent RubyGem! Presenting,
 
 It works like this:
 
-{% codeblock lang:ruby %}
-invoice = DiamondInvoice.new(File.read('invoice.txt')
+{% codeblock parse_invoice_example.rb %}
+invoice = DiamondInvoice.new(File.read('invoice.txt'))
 invoice.new_items
 # => ['avengers #257', 'batman: the brave and the bold special tpb', ...]
 {% endcodeblock %}
