@@ -3,10 +3,11 @@
 # ----------------------- #
 
 url: http://joncanady.com
-title: joncanady.com
-subtitle: Wherein Writing Occurs
+html_title: <span class="fname">Jon</span><br><span class="lname">Canady</span>
+title: Jon Canady
+subtitle:
 author: Jon Canady
-simple_search: http://google.com/search
+# simple_search: http://google.com/search
 description:
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
