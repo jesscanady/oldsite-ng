@@ -1,13 +1,10 @@
-header > nav {
-  float: none;
-  @media only screen and (min-width: 550px) {
-    float: right;
-  }
-  //background-color: $nav-bg;
-  //@include background($nav-bg-front, $nav-bg-back);
-  //border: {
-  //  top: 1px solid $nav-border-top;
-  //  bottom: 1px solid $nav-border-bottom; }
+body > nav {
+  position: relative;
+  background-color: $nav-bg;
+  @include background($nav-bg-front, $nav-bg-back);
+  border: {
+    top: 1px solid $nav-border-top;
+    bottom: 1px solid $nav-border-bottom; }
   padding-top: .35em;
   padding-bottom: .35em;
   form {
@@ -15,14 +12,15 @@ header > nav {
     margin: 0; padding: 0;
     .search {
       padding: .3em .5em 0;
-      font-size: .8em;
+      font-size: .85em;
       @extend .sans;
       line-height: 1.1em;
       width: 95%;
       @include border-radius(.5em);
       @include background-clip(padding-box);
-      @include box-shadow(lighten($main-bg, 2) 0 1px);
-      background-color: lighten($main-bg, 15);
+      @include box-shadow(lighten($nav-bg, 2) 0 1px);
+      background-color: lighten($nav-bg, 15);
+      border: 1px solid $nav-border;
       color: #888;
       &:focus {
         color: #444;
@@ -57,19 +55,19 @@ header > nav {
     a {
       @include link-colors($nav-color, $nav-color-hover, $visited: $nav-color);
       @extend .sans;
-      // text-shadow: lighten($nav-bg, 12) 0 1px;
+      text-shadow: lighten($nav-bg, 12) 0 1px;
       float: left;
       text-decoration: none;
-      font-size: .8em;
+      font-size: 1.1em;
       padding: .1em 0;
       line-height: 1.5em;
     }
     li + li {
-      //border-left: 1px solid $nav-border-left;
+      border-left: 1px solid $nav-border-left;
       margin-left: .8em;
       a {
         padding-left: .8em;
-        //border-left: 1px solid $nav-border-right;
+        border-left: 1px solid $nav-border-right;
       }
     }
     form {
@@ -79,7 +77,7 @@ header > nav {
       width: $sidebar-width-medium - $pad-medium*2 - $sidebar-pad-medium + 20px;
       .search {
         width: 93%;
-        font-size: .8em;
+        font-size: .95em;
         line-height: 1.2em;
       }
     }

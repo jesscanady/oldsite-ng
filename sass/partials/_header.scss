@@ -1,9 +1,5 @@
 body > header {
   background: $header-bg;
-  padding: .5em 1em;
-  hgroup {
-    float: left;
-  }
   h1 {
     display: inline-block;
     margin: 0;
@@ -11,7 +7,6 @@ body > header {
       color: $title_color;
       text-decoration: none;
     }
-    text-shadow: 0 1px 2px rgba(0,0,0,.5);
   }
   h2 {
     margin: .2em 0 0;
@@ -19,10 +14,5 @@ body > header {
     font-size: 1em;
     color: $subtitle-color;
     font-weight: normal;
-    text-shadow: 0 1px 2px rgba(0,0,0,.5);
   }
-}
-
-body > div#transition {
-  clear: both;
 }

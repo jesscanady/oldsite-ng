@@ -9,13 +9,10 @@ $link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
 
 // Main Section Colors
 $main-bg: #f8f8f8 !default;
-//$page-bg: #252525 !default;
-$page-bg: #ccc;
-
+$page-bg: #252525 !default;
 $article-border: #eeeeee !default;
 
 $header-bg: #333 !default;
-$header-bg: #0074C7;
 $header-border: lighten($header-bg, 15) !default;
 $title-color: #f2f2f2 !default;
 $subtitle-color: #aaa !default;
@@ -28,7 +25,7 @@ $type-border: #ddd !default;
 $nav-bg: #ccc !default;
 $nav-bg-front: image-url('noise.png') !default;
 $nav-bg-back: linear-gradient(lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11)) !default;
-$nav-color: lighten($nav-bg, 38) !default;
+$nav-color: darken($nav-bg, 38) !default;
 $nav-color-hover: darken($nav-color, 25) !default;
 $nav-placeholder: desaturate(darken($nav-bg, 10), 15) !default;
 $nav-border: darken($nav-bg, 10) !default;
@@ -87,43 +84,3 @@ body {
     }
   }
 }
-
-@font-face {
-    font-family: 'OstrichSansMedium';
-    src: url('/fonts/ostrich-regular-webfont.eot');
-    src: url('/fonts/ostrich-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/ostrich-regular-webfont.woff') format('woff'),
-         url('/fonts/ostrich-regular-webfont.ttf') format('truetype'),
-         url('/fonts/ostrich-regular-webfont.svg#OstrichSansMedium') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'OstrichSansBlack';
-    src: url('/fonts/ostrich-black-webfont.eot');
-    src: url('/fonts/ostrich-black-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/ostrich-black-webfont.woff') format('woff'),
-         url('/fonts/ostrich-black-webfont.ttf') format('truetype'),
-         url('/fonts/ostrich-black-webfont.svg#OstrichSansBlack') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-header span.fname {
-  font-family: 'OstrichSansMedium'
-}
-
-header span.lname {
-  font-family: 'OstrichSansBlack'
-}
-
-header hgroup h1 {
-  line-height: 0;
-}
-header hgroup h1 br {
-  line-height: 0;
-  font-size: 2px;
-}
-
