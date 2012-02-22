@@ -42,4 +42,4 @@ and hopefully I can shore up the weak spots in my testing.
 
 [das]: http://destroyallsoftware.com
 [crb]: http://columbusrb.com
-[codejam]: http://columbusrb.com/#codejam
+[codejam]: http://columbusrb.com/#code_jam
