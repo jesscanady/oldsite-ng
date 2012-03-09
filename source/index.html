@@ -1,29 +1,18 @@
 ---
+layout: default
 ---
-<!html>
-<html>
-  <head>
-    <title>Jon Canady : Columbus OH Software Developer</title>
-    <link rel="stylesheet" href="/stylesheets/league_gothic.css" type="text/css">
-    <link rel="stylesheet" href="/stylesheets/frontpage.css" type="text/css">
-    <style type="text/css"></style>
-  </head>
-  <body>
-    <div id="main">
-      <div id="name">JON CANADY</div> 
-      <a href="http://www.flickr.com/photos/kelligilbert/6033494563/in/photostream"><img id="jon" src="/images/jon.png"></a>
-      <div id="desc">Software Developer in Columbus, OH</div>
-      
-      <section id="about">
-        <p>I <a href="/blog">maintain a blog</a>, mostly about software. And poker. I like to <a href="http://twitter.com/joncanady">twitter</a> a bit.
-        I keep code on <a href="http://github.com/joncanady">my Github account</a> but the vast majority of my work is done for <a href="http://innova-partners.com">Innova
-        Partners</a>, an awesome software consultancy in the Arena District.</p>
-      </section>
-    </div>
 
-
-  </body>
-</html>
-    
-
-
+{% assign index = true %}
+{% for post in paginator.posts %}
+{% assign content = post.content %}
+    <article class="post">{% include article.html %}</article>
+{% endfor %}
+<nav id="pagenavi">
+    {% if paginator.previous_page %}
+        <a href="{{paginator.previous_page}}" class="prev">Prev</a>
+    {% endif %}
+    {% if paginator.next_page %}
+        <a href="{{paginator.next_page}}" class="next">Next</a>
+    {% endif %}
+    <a href="{{ root_url }}/blog/archives" class="center">Blog Archives</a>
+</nav>
