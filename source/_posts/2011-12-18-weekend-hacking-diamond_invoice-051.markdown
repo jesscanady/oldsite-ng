@@ -29,4 +29,4 @@ critique my coding/testing style, here's a great project to do it on.
 
 
 [ct]: http://comictown.net Comic Town in Columbus, OH
-[github_page]: http://gthub.com/joncanady/diamond_invoice
+[github_page]: http://github.com/joncanady/diamond_invoice
