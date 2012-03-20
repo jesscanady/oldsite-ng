@@ -23,8 +23,8 @@ button, and bow out.
 
 I'm in the big blind. Get dealt crap, other players raise, I'm out.
 
-I'm in the small blind. It's this, and one more hand, and I'm cashing chips in.
-.Someone raises to $12. I look down at QQ. I don't know if I hid the shock on my
+I'm in the small blind. It's this, and one more hand, and I'm cashing my chips in.
+Someone raises to $12. I look down at QQ. I don't know if I hid the shock on my
 face at seeing a good hand. I raise to $25. Dude thinks for two seconds and
 calls.
 
