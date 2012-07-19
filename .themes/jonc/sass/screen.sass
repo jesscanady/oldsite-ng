@@ -1,0 +1,99 @@
+$bg-color: #fff
+$fg-color: #000
+$fg-color-lighter: lighten($fg-color, 60%)
+$emphasize-color: hsl(33, 100%, 50%)
+
+
+body
+  font-family: 'Lato', Arial, sans-serif
+  font-weight: 300
+  font-size: 18px
+  line-height: 28px
+
+p
+  margin-bottom: 16px
+  margin-top: 16px
+    
+h1
+  font-size: 28px
+  font-weight: 900
+  color: $fg-color
+
+a:link
+  color: $fg-color
+  border-bottom: 1px solid lighten($fg-color, 40%)
+  text-decoration: none
+a:active
+  color: $emphasize-color
+  border-bottom: 1px solid lighten($emphasize-color, 40%)
+  text-decoration: none
+a:visited
+  color: $fg-color
+  border-bottom: 1px solid lighten($fg-color, 40%)
+  text-decoration: none
+a:hover
+  color: $emphasize-color
+  border-bottom: 1px solid lighten($emphasize-color, 40%)
+  text-decoration: none
+ 
+header
+  h1
+    font-size: 41px
+      
+  ul
+    list-style-type: none
+    line-height: 31px
+    li
+      margin-left: -40px
+        
+  display: block
+  font-weight: normal
+  position: fixed
+  right: auto
+  top: 0
+  width: 178px
+  z-index: 0
+  overflow-y: visible
+  border-right: 1px solid #ddd
+  padding: 20px 40px
+  height: 100%
+  color: $fg-color-lighter
+
+  a:link
+    color: $fg-color-lighter
+    border-bottom: 1px solid lighten($fg-color-lighter, 30%)
+    text-decoration: none
+  a:active
+    color: $emphasize-color
+    border-bottom: 1px solid lighten($emphasize-color, 30%)
+    text-decoration: none
+  a:visited
+    color: $fg-color-lighter
+    border-bottom: 1px solid lighten($fg-color-lighter, 30%)
+    text-decoration: none
+  a:hover
+    color: $emphasize-color
+    border-bottom: 1px solid lighten($emphasize-color, 30%)
+    text-decoration: none
+
+
+#content
+  position: relative
+  margin-left: 320px
+  overflow-y: visible
+  z-index: 1
+  width: 600px
+
+article p.meta
+  margin-top: 0
+  line-height: 0px
+  margin-bottom: 2em
+  font-size: .9em
+  margin-top: 0
+
+
+
+
+
+
+
